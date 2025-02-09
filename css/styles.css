@@ -1,0 +1,18 @@
+html{
+    font-family: IBM Plex Mono;
+}
+
+/* Blinking Cursor */
+.cursor {
+    color: #0aa6fb;
+    font-weight: bold;
+    font-size: 1.2em;
+    animation: blink 0.8s infinite;
+    display: inline-block;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
