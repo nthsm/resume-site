@@ -16,3 +16,39 @@ html {
         opacity: 0;
     }
 }
+
+.uk-button-primary {
+    background-color: #131313;
+    color: #666;
+    border: 1px solid #666;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.uk-button-primary:hover {
+    background-color: #292929;
+}
+
+
+.featured-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.uk-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #111; 
+    border: 1px solid #333; 
+}
+
+
+.uk-width-expand {
+    padding-left: 20px;
+}

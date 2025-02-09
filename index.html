@@ -13,30 +13,30 @@
 </head>
 <body>
 <!-- Navigation Bar -->
-    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     
     <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">NathanSmith.</a>
+        <a href="/" class="uk-navbar-item uk-logo uk-light">NathanSmith.</a>
     </div>
     <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav uk-light">
             <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#featured" uk-scroll>Featured</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="blog">Blog</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="/blog">Blog</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="mailto:nathan@nthsm.com">Contact</a></li>
-
         </ul>
 
     </div>
 </nav>
+
 <!-- Navigation Bar Ends  -->
 
 <!-- Navigation Bar Mobile -->
 <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     
     <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">NathanSmith.</a>
+        <a href="/" class="uk-navbar-item uk-logo uk-light">NathanSmith.</a>
     </div>
     <div class="uk-navbar-right">
 
@@ -47,15 +47,14 @@
 
     </div>
 </nav>
-<!-- Change This -->
+
 <div id="offcanvas-nav" uk-offcanvas="overlay: true">
     <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
             <li><a href="#about" uk-scroll>About</a></li>
             <li><a href="#featured" uk-scroll>Featured</a></li>
-            <li><a href="blog">Blog</a></li>
+            <li><a href="/blog">Blog</a></li>
             <li><a href="mailto:nathan@nthsm.com">Contact</a></li>
         </ul>
         
@@ -89,49 +88,46 @@
 <!-- Change here to ur paragraph -->
 <p class="uk-margin-xlarge-left uk-margin-xlarge-right">I’m a Management Information Systems student at Florida State University with a Computer Science minor. My experience spans data analysis, electronics engineering, and DIY tech projects, with a strong foundation in Excel, SQL, Python, and Tableau.</p>
 <a href="https://www.instagram.com/nhtfm/" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;<a href="https://github.com/nthsm/" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/nthsm/" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
-
+</section>
 <!-- About Me Ends -->
 
-
-
-
-</section>
 
 <!-- Featured Section -->
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
 <section id="featured" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">Featured</h3>
-<p class="uk-margin-xlarge-left">Recent projects I've finished...</p>
+    <h3 class="uk-margin-xlarge-left uk-light">Featured</h3>
+    <p class="uk-margin-xlarge-left">My favorite project I’ve done recently.</p>
 
-<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
-    <!-- Change all of this to ur projects -->
-    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Gamecube Controller | Phob | Mechanical Switch Soldering</h4>
-        <p>Post coming soon.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="">
-            <span uk-icon="icon: link">
-            </span> Website Link </a>
-        </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>Raspberry Pi | Spotify Now-Playing | Picture Frame</h4>
-            <p>Post coming soon.</p>
-            <a class="uk-button-text uk-text-decoration-none" href="">
-                <span uk-icon="icon: link">
-                </span> Website Link </a>
-            </div></div>
-
-        <div class="uk-text-center uk-margin-large-top">
-            <a href="/blog" class="uk-button uk-button-primary">View All</a>
-            </div>
+    <!-- Featured Project Card -->
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <div class="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-grid-collapse uk-flex-middle" uk-grid>
             
+            <!-- Image Section (Inside the Box) -->
+            <div class="uk-width-1-4@s">
+                <img src="images/gccproj.jpg" alt="GameCube Controller" class="featured-image">
+            </div>
 
+            <!-- Text Section -->
+            <div class="uk-width-expand">
+                <h4>GameCube Controller | Phob 2.0.5 | Mechanical Switch Soldering</h4>
+                <p>I decided that I wanted to use mechanical keyboard switches for my triggers instead of the usual paddles & springs. This makes any trigger input a lot more smooth and easier on the fingers.</p>
+                <a class="uk-button-text uk-text-decoration-none" href="/blog/gcc-mouseclickmods.html">
+                    <span uk-icon="icon: link"></span> Continue Reading
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- View All Button -->
+    <div class="uk-text-center uk-margin-large-top">
+        <a href="/blog" class="uk-button uk-button-primary">View All</a>
+    </div>
     <br>
-
 
 </section>
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-</div>
-<!-- Projects Section Ends -->
+<!-- Featured Section Ends -->
     
 </body>
 </html>
