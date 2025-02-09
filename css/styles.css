@@ -1,10 +1,10 @@
-html{
-    font-family: IBM Plex Mono;
+html {
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /* Blinking Cursor */
 .cursor {
-    color: #0aa6fb;
+    color: #801d1d;
     font-weight: bold;
     font-size: 1.2em;
     animation: blink 0.8s infinite;

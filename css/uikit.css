@@ -1,4 +1,4 @@
-/*! UIkit 3.14.0 | https://www.getuikit.com | (c) 2014 - 2022 YOOtheme | MIT License */
+/*! UIkit 3.14.0 | https://www.getuikit.com | (c) 2014 - 2025 YOOtheme | MIT License */
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -8,10 +8,10 @@
  * 3. Style
  */
 
- @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 html {
   /* 1 */
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Merriweather', serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
@@ -72,7 +72,7 @@ strong {
 :not(pre) > kbd,
 :not(pre) > samp {
   /* 1 */
-  font-family: Consolas, monaco, monospace;
+  font-family: Consolas, monaco, serif;
   /* 2 */
   font-size: 0.875rem;
   /* 3 */
@@ -223,7 +223,7 @@ h6,
 .uk-heading-xlarge,
 .uk-heading-2xlarge {
   margin: 0 0 20px 0;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Merriweather', serif;
   font-weight: normal;
   color: #333;
   text-transform: none;
@@ -377,7 +377,7 @@ blockquote footer::before {
  * 1. Contain overflow in all browsers.
  */
 pre {
-  font: 0.875rem / 1.5 Consolas, monaco, monospace;
+  font: 0.875rem / 1.5 Consolas, monaco, sans-serif;
   color: #666;
   -moz-tab-size: 4;
   tab-size: 4;
@@ -389,7 +389,7 @@ pre {
   background: #fff;
 }
 pre code {
-  font-family: Consolas, monaco, monospace;
+  font-family: Consolas, monaco, sans-serif;
 }
 /* Focus
  ========================================================================== */

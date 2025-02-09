@@ -14,5 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const textElement = document.getElementById("typed-text");
-    typeEffect(textElement, "I'm Nathan Smith, welcome.", 100);
+
+    if (textElement.innerHTML.trim() === "") {  // ✅ Only run the effect if the element is empty
+        typeEffect(textElement, "I'm Nathan Smith, welcome.", 30);
+    }
 });
