@@ -54,6 +54,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline dotted;
   /* 2 */
+  text-decoration-style: dotted;
   -webkit-text-decoration-style: dotted;
 }
 /*
