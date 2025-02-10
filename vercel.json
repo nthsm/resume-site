@@ -2,6 +2,6 @@
     "rewrites": [
       { "source": "/blog", "destination": "/blog.html" },
       { "source": "/blog/gcc-mouseclickmods", "destination": "/blog/gcc-mouseclickmods.html"},
-      { "source": "/resume", "destination": "/resume.html" }
+      { "source": "/experience", "destination": "/experience.html" }
     ]
   }  
