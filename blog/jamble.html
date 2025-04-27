@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/uikit.css">
+    <link rel="stylesheet" href="/css/styles.css">    
+    <script src="/js/uikit.js"></script>
+    <script src="/js/uikit-icons.js"></script>    
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <title>NathanSmith</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="/" class="uk-navbar-item uk-logo uk-light uk-flex uk-flex-middle">
+            <img src="/favicon.ico" alt="Logo" class="uk-border-rounded uk-margin-small-right" style="width: 24px; height: 24px;">NathanSmith
+        </a>
+    </div>
+
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav uk-light">
+            <li><a class="uk-button-text uk-text-capitalize" href="/experience">Experience</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="/blog">Blog</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="mailto:nathan@nthsm.com">Contact</a></li>
+        </ul>
+    </div>
+
+</nav>
+<!-- Navigation Bar Ends -->
+
+
+<!-- Navigation Bar Mobile -->
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="/" class="uk-navbar-item uk-logo uk-light uk-flex uk-flex-middle">
+            <img src="/favicon.ico" alt="Logo" class="uk-border-rounded uk-margin-small-right" style="width: 24px; height: 24px;">NathanSmith
+        </a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+        </ul>
+
+    </div>
+</nav>
+
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            <li><a href="/experience">Experience</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="mailto:nathan@nthsm.com">Contact</a></li>
+        </ul>
+        
+    </div>
+</div>
+<!-- Navigation Bar Mobile Ends -->
+
+<!-- Blog Post -->
+<section class="uk-container uk-margin-large-top uk-margin-large-bottom">
+    <article class="uk-article">
+        <h1 class="uk-article-title">Jamble: Game Nights Without The Hassle</h1>
+        <p class="uk-text-meta">Coming Soon</p>
+
+        <img src="/images/jamble.jpg" alt="Jamble" class="uk-border-rounded uk-width-1-2@s uk-align-center">
+
+        <p>
+            Full post coming soon!
+        </p>
+
+        <!-- Back to Blog Button -->
+        <div class="uk-text-center uk-margin-large-top">
+            <a href="/blog" class="uk-button uk-button-primary">Back to Blog</a>
+        </div>
+    </article>
+</section>
+
+</body>
+</html>
