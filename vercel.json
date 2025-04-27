@@ -1,7 +1,9 @@
 {
   "rewrites": [
     { "source": "/blog", "destination": "/blog.html" },
-    { "source": "/blog/gcc-mouseclickmods", "destination": "/blog/gcc-mouseclickmods.html" },
-    { "source": "/about", "destination": "/about.html" }
+    { "source": "/blog/trigkeys", "destination": "/blog/trigkeys.html" },
+    { "source": "/blog/doublepc", "destination": "/blog/doublepc.html" },
+    { "source": "/blog/jamble", "destination": "/blog/jamble.html" },
+    { "source": "/experience", "destination": "/experience.html" }
   ]
 }
