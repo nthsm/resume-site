@@ -3,7 +3,7 @@
     { "source": "/blog", "destination": "/blog.html" },
     { "source": "/blog/trigkeys", "destination": "/blog/trigkeys.html" },
     { "source": "/blog/doublepc", "destination": "/blog/doublepc.html" },
-    { "source": "/blog/jamble", "destination": "/blog/jamble.html" },
+    { "source": "/blog/gameknight", "destination": "/blog/gameknight.html" },
     { "source": "/experience", "destination": "/experience.html" }
   ]
 }
